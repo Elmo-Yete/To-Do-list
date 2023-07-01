@@ -8,17 +8,21 @@ function App() {
         <h1 className="text-center font-bold text-gray-50">
           Mis cosas por hacer
         </h1>
-        <div className="flex justify-center ">
-          <input type="text" className="bg-black border border-solid"></input>
+        <div className="flex justify-center pt-5">
+          <input
+            type="text"
+            className="bg-black border border-solid w-[16rem] "></input>
           <button className="bg-white w-9 ms-2">+</button>
         </div>
-        <ul className="flex justify-center flex-col  text-white ">
-          {ToDoData.map((text, index) => {
-            return <ToDo key={`Key:${index}`} text={text.text} />;
-          })}
-        </ul>
+        <div className="flex w-[100%] justify-center">
+          <ul className="flex justify-evenly flex-col text-white w-[20%] ">
+            {ToDoData.map((text, index) => {
+              return <ToDo key={`Key:${index}`} text={text.text} />;
+            })}
+          </ul>
+        </div>
         <div className="flex justify-center">
-          <button className="flex bg-violet-500 w-[25rem]  justify-center rounded-sm">
+          <button className="flex bg-violet-500 w-[18rem]  justify-center rounded-sm text-white">
             🕸 BORRAR TODO 🕸
           </button>
         </div>

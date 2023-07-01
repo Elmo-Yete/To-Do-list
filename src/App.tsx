@@ -11,7 +11,7 @@ function App() {
         <div className="flex justify-center pt-5">
           <input
             type="text"
-            className="bg-black border border-solid w-[16rem] "></input>
+            className="bg-black border border-solid w-[22rem] "></input>
           <button className="bg-white w-9 ms-2">+</button>
         </div>
         <div className="flex w-[100%] justify-center">
@@ -22,7 +22,7 @@ function App() {
           </ul>
         </div>
         <div className="flex justify-center">
-          <button className="flex bg-violet-500 w-[18rem]  justify-center rounded-sm text-white">
+          <button className="flex bg-violet-500 w-[25rem]  justify-center rounded-sm text-white">
             🕸 BORRAR TODO 🕸
           </button>
         </div>
